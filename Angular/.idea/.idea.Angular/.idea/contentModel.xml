@@ -39,6 +39,12 @@
           </e>
           <e p="boot.browser.ts" t="Include" />
           <e p="boot.server.ts" t="Include" />
+          <e p="dist" t="Include">
+            <e p="89889688147bd7575d6327160d64e760.svg" t="Include" />
+            <e p="main-server.js" t="Include" />
+            <e p="vendor-manifest.json" t="Include" />
+            <e p="vendor.js" t="Include" />
+          </e>
           <e p="test" t="Include">
             <e p="boot-tests.ts" t="Include" />
             <e p="karma.conf.js" t="Include" />
@@ -73,15 +79,55 @@
             </e>
           </e>
         </e>
+        <e p="out" t="Include">
+          <e p="Angular.PrecompiledViews.dll" t="Include" />
+          <e p="Angular.PrecompiledViews.pdb" t="Include" />
+          <e p="Angular.deps.json" t="Include" />
+          <e p="Angular.dll" t="Include" />
+          <e p="Angular.pdb" t="Include" />
+          <e p="Angular.runtimeconfig.json" t="Include" />
+          <e p="ClientApp" t="Include">
+            <e p="dist" t="Include">
+              <e p="89889688147bd7575d6327160d64e760.svg" t="Include" />
+              <e p="main-server.js" t="Include" />
+              <e p="vendor-manifest.json" t="Include" />
+              <e p="vendor.js" t="Include" />
+            </e>
+          </e>
+          <e p="appsettings.Development.json" t="Include" />
+          <e p="appsettings.json" t="Include" />
+          <e p="npm-shrinkwrap.json" t="Include" />
+          <e p="package.json" t="Include" />
+          <e p="tsconfig.json" t="Include" />
+          <e p="web.config" t="Include" />
+          <e p="wwwroot" t="Include">
+            <e p="dist" t="Include">
+              <e p="89889688147bd7575d6327160d64e760.svg" t="Include" />
+              <e p="main-client.js" t="Include" />
+              <e p="vendor-manifest.json" t="Include" />
+              <e p="vendor.css" t="Include" />
+              <e p="vendor.js" t="Include" />
+            </e>
+            <e p="favicon.ico" t="Include" />
+          </e>
+        </e>
         <e p="package.json" t="Include" />
         <e p="tsconfig.json" t="Include" />
         <e p="webpack.config.js" t="Include" />
         <e p="webpack.config.vendor.js" t="Include" />
         <e p="wwwroot" t="Include">
+          <e p="dist" t="Include">
+            <e p="89889688147bd7575d6327160d64e760.svg" t="Include" />
+            <e p="main-client.js" t="Include" />
+            <e p="vendor-manifest.json" t="Include" />
+            <e p="vendor.css" t="Include" />
+            <e p="vendor.js" t="Include" />
+          </e>
           <e p="favicon.ico" t="Include" />
         </e>
       </e>
       <e p="Angular.sln" t="IncludeFlat" />
+      <e p="SolutionFolder" t="Include" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
   </component>
